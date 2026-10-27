@@ -1,0 +1,105 @@
+{
+  "size": 64,
+  "stride": 5,
+  "seeds": [
+    7,
+    11
+  ],
+  "motion_steps": 100,
+  "segmentation_steps": 160,
+  "batch_size": 8,
+  "source": "SYNTHETIC_TOY_NOT_SURGICAL_DATA",
+  "sparse_annotation_count": 20,
+  "training_frames": 100,
+  "actual_label_fraction": 0.2,
+  "sparse_annotation_ids": [
+    {
+      "sequence": "seq00",
+      "frame": 0
+    },
+    {
+      "sequence": "seq00",
+      "frame": 5
+    },
+    {
+      "sequence": "seq00",
+      "frame": 10
+    },
+    {
+      "sequence": "seq00",
+      "frame": 15
+    },
+    {
+      "sequence": "seq01",
+      "frame": 0
+    },
+    {
+      "sequence": "seq01",
+      "frame": 5
+    },
+    {
+      "sequence": "seq01",
+      "frame": 10
+    },
+    {
+      "sequence": "seq01",
+      "frame": 15
+    },
+    {
+      "sequence": "seq02",
+      "frame": 0
+    },
+    {
+      "sequence": "seq02",
+      "frame": 5
+    },
+    {
+      "sequence": "seq02",
+      "frame": 10
+    },
+    {
+      "sequence": "seq02",
+      "frame": 15
+    },
+    {
+      "sequence": "seq03",
+      "frame": 0
+    },
+    {
+      "sequence": "seq03",
+      "frame": 5
+    },
+    {
+      "sequence": "seq03",
+      "frame": 10
+    },
+    {
+      "sequence": "seq03",
+      "frame": 15
+    },
+    {
+      "sequence": "seq04",
+      "frame": 0
+    },
+    {
+      "sequence": "seq04",
+      "frame": 5
+    },
+    {
+      "sequence": "seq04",
+      "frame": 10
+    },
+    {
+      "sequence": "seq04",
+      "frame": 15
+    }
+  ],
+  "manifest_sha256": "2c28b0bebc38eeb45028a3600f6d464df6ae9f51e2a142d630de5d99bffb28de",
+  "python": "3.11.4",
+  "torch": "2.0.1",
+  "numpy": "1.24.2",
+  "platform": "macOS-26.2-arm64-arm-64bit",
+  "cpu_threads": 1,
+  "data_seed": 29,
+  "caveat": "Paper-inspired adaptation; synthetic tests do not validate surgical or fluid performance."
+}
