@@ -1,0 +1,42 @@
+{
+  "tests_passed": 15,
+  "seeds": [
+    7,
+    11
+  ],
+  "trained_segmenters": 10,
+  "evaluation_rows": 13200,
+  "training_label_fraction": 0.2,
+  "inference_frames_checked": 20,
+  "source": "synthetic only",
+  "onnx": {
+    "opset": 17,
+    "batch_sizes": [
+      1,
+      2
+    ],
+    "max_abs_errors": [
+      5.0067901611328125e-06,
+      5.4836273193359375e-06
+    ],
+    "preprocessing": "RGB float32 NCHW [0,1], square resize to checkpoint size",
+    "output": "logits; sigmoid required",
+    "excluded": "temporal state, reliability gate, decoding and preprocessing"
+  },
+  "source_sha256": {
+    "surgtrack/__init__.py": "e9441d76b4500e2abcb4c5dcfd3a0664322bbd283f9ba54dac01f46acb585498",
+    "surgtrack/cli.py": "9a04528f91018af83f809e0eb36816eabd9bedcaa7f20939d2f6eda8c30efcc9",
+    "surgtrack/core.py": "fea4981f1821c7bdaf1b2a195bddf461e71db455fe053601fc93922bf9145324",
+    "surgtrack/data.py": "9a2efe998c706c49c17b53a57ce95b9e76c3f3f1ddfad0bb95fe94e28140c5b2",
+    "surgtrack/milestone2.py": "b15483b28decc20b4b40ad3ef4ce2e82dc42fd898183678093d9a7a6fd769b27",
+    "surgtrack/motion.py": "bf7e9e82e7608dafe50c9a569b7199e8353625823f913dc358f721345341aad1"
+  },
+  "limits": [
+    "No real EndoVis training",
+    "No tissue-plane detection",
+    "No clinical validation",
+    "No video-file decoder test",
+    "Motion pipeline not exported to ONNX",
+    "Glare and bloom still cause confident false positives"
+  ]
+}

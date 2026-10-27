@@ -1,0 +1,5 @@
+{
+  "train": ["instrument_dataset_1", "instrument_dataset_2", "instrument_dataset_3", "instrument_dataset_4", "instrument_dataset_5"],
+  "val": ["instrument_dataset_6"],
+  "test": ["instrument_dataset_7", "instrument_dataset_8"]
+}
