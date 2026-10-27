@@ -10,7 +10,7 @@ A small PyTorch test project: segment some toy instruments, add motion, then see
 
 ![Synthetic lighting stress test](examples/lighting_preview.gif)
 
-The web app compares five segmenters and three temporal modes over 11 scenarios, including wet-surface glare, nearby overexposure, instrument shadows, opaque fluid, and recovery. It plays recorded inference; no model runs in the browser. The clean target overlay makes errors inspectable.
+The web app compares four sparse-label segmenters and three temporal modes over 11 scenarios, including wet-surface glare, nearby overexposure, instrument shadows, opaque fluid, and recovery. It plays recorded inference; no model runs in the browser. The clean target overlay makes errors inspectable.
 
 ## Run the Python project
 
